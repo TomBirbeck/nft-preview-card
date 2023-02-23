@@ -30,6 +30,7 @@ main {
     width: 22rem;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 0 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .card-img {
@@ -50,6 +51,7 @@ main {
         place-items: center;
         border-radius: 0.5rem;
         opacity: 0;
+        transition: 0.5s ease-in-out;
 }
 
 .card-img:hover .overlay {
@@ -123,6 +125,7 @@ main {
 }
 
 .attribution {
+    color: var(--custon-white);
     font-size: 11px;
     text-align: center;
 }
