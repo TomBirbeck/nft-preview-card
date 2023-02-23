@@ -1,0 +1,23 @@
+:root {
+--soft-blue: hsl(215, 51%, 70%);
+--custon-cyan: hsl(178, 100%, 50%);
+--bg-dark-blue: hsl(217, 54%, 11%);
+--card-dark-blue: hsl(216, 50%, 16%);
+--line-dark-blue: hsl(215, 32%, 27%);
+--custon-white: hsl(0, 0%, 100%);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
