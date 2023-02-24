@@ -28,18 +28,18 @@ main {
     background-color: var(--card-dark-blue);
     height: 36rem;
     width: 22rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .card-img {
-    height: 20rem;
-    width: 20rem;
+    height: 19rem;
+    width: 19rem;
     background-image: url(./images/image-equilibrium.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
 }
 
 
@@ -87,6 +87,7 @@ main {
 .eth-price {
     color: var(--custon-cyan);
     display: flex;
+    flex-wrap: nowrap;
     gap: 0.5rem;
     font-weight: 600;
 }
@@ -94,6 +95,7 @@ main {
 .days-left {
     color: var(--soft-blue);
     display: flex;
+    flex-wrap: nowrap;
     gap: 0.5rem;
 }
 
@@ -105,8 +107,10 @@ main {
 }
 
 .creator img {
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: solid 1px var(--custon-white);
 }
 
 .creator-text {
