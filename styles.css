@@ -14,6 +14,10 @@
     font-family: 'Outfit', sans-serif;
 }
 
+::after, ::before  {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--bg-dark-blue);
 }
@@ -87,16 +91,24 @@ main {
 .eth-price {
     color: var(--custon-cyan);
     display: flex;
-    flex-wrap: nowrap;
-    gap: 0.5rem;
     font-weight: 600;
+    gap: 0.5rem;
 }
+
+.eth-price::before {
+    content: url('./images/icon-ethereum.svg');
+}
+
 
 .days-left {
     color: var(--soft-blue);
     display: flex;
-    flex-wrap: nowrap;
     gap: 0.5rem;
+}
+
+.days-left::before {
+    content: url('./images/icon-clock.svg');
+    margin-top: 0.15rem;
 }
 
 .creator {
