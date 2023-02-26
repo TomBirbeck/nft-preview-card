@@ -44,6 +44,7 @@ My solution:
 I began by setting the box-sizing to border-box and the padding and margin to 0. I then created the custom variables for the colours and imported the correct font and weights.\
 I then planned out how what I would need to do to get the correct layout. I built up the HTML frame and added the styling needed for the base card state.\
 Finally I added the active states where needed, including the overlay for the picture, and a box-shadow to make the card "pop".
+After Gaining some feed back on my solution I tried to take it on board and use ::before and ::after in my CSS to get the overlay effect for the image and for the icons.
 
 ### Built with
 
